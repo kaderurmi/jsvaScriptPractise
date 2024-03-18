@@ -21,11 +21,11 @@ X--// x=X-1 */
 //     console.log("They are not Brother");
 // }
 
-var n = 7;
-if(n<10 && (2 == n || 3 == n || 5 ==n || 7 ==n) ){
-    console.log("This Number"+n+"is smaller than 10 and it's a prime number.");
+var n = 21;
+if(n<10 && (2 == n || 3 == n || 5 ==n || 7 == n) ){
+    console.log("This Number "+n+" is smaller than 10 and it's a prime number.");
 } else if (n <10){
-    console.log("This Number"+n+"is smaller than 10 and it's Not a prime number.");
+    console.log("This Number "+n+" is smaller than 10 and it's Not a prime number.");
 }else {
-    console.log("This Number"+n+"is greater than 10.");
+    console.log("This Number "+n+" is greater than 10.");
 }
